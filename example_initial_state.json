@@ -1,0 +1,75 @@
+{
+  "parameters": {
+    "D_eV": 0.05,
+    "a_angstrom": 2.46,
+    "t0_eV": 2.61,
+    "t1_eV": 0.361,
+    "t3_eV": 0.283,
+    "t4_eV": 0.138,
+    "delta_prime_eV": 0.015
+  },
+  "grid": "Triangular hexagon: 24 shells, cutoff*a=0.12, step*a=0.005; boundary-weighted triangular quadrature",
+  "points_per_valley": 1801,
+  "valleys": [
+    1,
+    -1
+  ],
+  "spins": [
+    "up",
+    "down"
+  ],
+  "sublattices": [
+    "A1",
+    "B1",
+    "A2",
+    "B2"
+  ],
+  "temperature_K": 0.0,
+  "target_density_cm2": -500000000000.0,
+  "actual_density_cm2": -500000000000.00146,
+  "density_error_cm2": -0.00146484375,
+  "density_by_flavor_cm2": [
+    [
+      -125000000000.00037,
+      -125000000000.00037
+    ],
+    [
+      -125000000000.00037,
+      -125000000000.00037
+    ]
+  ],
+  "mu_eV": -0.02491310016323328,
+  "fractionally_occupied_states": 12,
+  "eigenvalues_shape": [
+    2,
+    2,
+    1801,
+    4
+  ],
+  "eigenvectors_shape": [
+    2,
+    2,
+    1801,
+    4,
+    4
+  ],
+  "rho0_shape": [
+    2,
+    2,
+    1801,
+    4,
+    4
+  ],
+  "density_convention": "Total electrons minus neutrality; negative for holes",
+  "diagnostics": {
+    "max_eigenpair_residual_eV": 6.597425008528065e-16,
+    "max_orthonormality_error": 1.9984014443252818e-15,
+    "max_rho_hermiticity_error": 3.469446951953614e-18,
+    "max_commutator_residual_eV": 5.551124678707994e-16,
+    "max_trace_occupation_error": 2.6645352591003757e-15,
+    "minimum_rho_eigenvalue": -5.561758361445002e-16,
+    "maximum_rho_eigenvalue": 1.0000000000000024,
+    "max_idempotency_defect": 0.02168951834338275,
+    "density_error_cm2": -0.00146484375
+  }
+}
