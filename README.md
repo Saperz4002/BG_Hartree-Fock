@@ -25,13 +25,11 @@ python bernal_initializer.py --D-meV=50 --density-cm2=-5e11 --temperature-K=0
 
 This writes `initial_state.npz` and a readable `initial_state.json` summary.
 The bundled `example_initial_state.npz` and `.json` contain an executed example
-with the same settings. Open `01_noninteracting_initialization.ipynb` in Jupyter
-or VS Code for the explained calculation, numerical matrices, and plots. Keep
+with the same settings. Keep
 the notebook and `bernal_initializer.py` in the same directory.
 
 NumPy's `linalg.eigh` solves the explicit Hermitian matrices; SciPy supplies the
-finite-temperature number solver. PySCF is not a dependency at this stage.
-Matplotlib is used only by the notebook.
+finite-temperature number solver.
 
 ## Inputs and units
 
